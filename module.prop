@@ -1,0 +1,7 @@
+id=73sydney.sqlite3
+name=SQLite3 v4.1 binary for arm-v7
+version=version 1.1
+versionCode=1
+author=73sydney (Inspired by Olivier Pantale)
+description=Install an sqlite3 v4.1 binary for arm-v7 to /system/xbin, for terminal use, shell command, tasker scripts...
+minMagisk=1500
