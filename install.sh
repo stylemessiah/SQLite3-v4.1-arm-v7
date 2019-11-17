@@ -172,7 +172,8 @@ set_bindir() {
     # Use /system/bin instead of /system/xbin.
 	ui_print "Installing instead to /system/bin..."
     mkdir -p $MODPATH$bindir
-	mv $MODPATH$xbindir/sqlite3 $MODPATH$bindir
+    mv $MODPATH$xbindir/sqlite3 $MODPATH$bindir
+    chmod 0755 $MODPATH$bindir/sqlite3
     rmdir $MODPATH$xbindir
     xbindir=$bindir
  fi
